@@ -3,10 +3,45 @@
     font-size: 14px;
 }
 
-.navbar{
+.navbar, .jumb{
     background-color: #a8e5d4;
 }
 
 .paragrafos{
     text-indent: 20px;
+}
+
+.nav-link {
+    white-space: nowrap;
+    text-align: center;
+  }
+
+.nav-link:hover{
+    color: #003beb;
+    font-size: 16px;
+}
+
+.nav-link::before{
+    content: "•"; /* Usando um marcador de círculo */
+    padding: 5px;
+}
+
+.imagem1{
+    display: flex;
+    justify-content: end;
+}
+
+@media screen and (max-width: 767px){
+    .nav-link{
+        text-align: left;
+        line-height: 25px;
+        list-style-type: circle;
+    }
+
+    .imagem1, .imagem2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
