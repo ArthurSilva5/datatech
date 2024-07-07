@@ -5,10 +5,19 @@
 }
 
 .navbar, .jumb{
-    background-color: #a8e5d4;
+    background-color: #07c8d1;
 }
 
+.btnEnviar{
+    background-color: #2992e9;
+    border: 1px solid rgb(19, 68, 216);
+}
 
+.btnEnviar:hover{
+    background-color:#145891ab;
+    border: 2px solid royalblue;
+    font-size: 18px;
+}
 
 .paragrafos{
     text-indent: 20px;
